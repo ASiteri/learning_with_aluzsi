@@ -1,0 +1,1 @@
+curl http://shakespeare.mit.edu/hamlet/full.html | grep -Ew "lord|lords" | wc -l
